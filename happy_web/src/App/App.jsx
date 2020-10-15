@@ -1,9 +1,12 @@
 import React from 'react';
-
-
+import Global from '../Styles/Global';
+import LandingPage from '../Pages/LandingPage';
 const App= () => {
   return (
-    <div>hello,world</div>
+    <div>
+      <Global/>
+      <LandingPage />
+    </div>
   );
 }
 
