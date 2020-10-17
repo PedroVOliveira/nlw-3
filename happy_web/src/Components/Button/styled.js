@@ -3,10 +3,9 @@ import styled from 'styled-components';
 export const AncorLink = styled.div`
 
   a {
-
-    width:88px;
-    height:88px;
-    background:#ffd666;
+    width:${props=> props.size};
+    height:${props=> props.size};
+    background:${props => props.color};
     border-radius:30px;
     display:flex;
     justify-content:center;
@@ -15,7 +14,7 @@ export const AncorLink = styled.div`
     transition: all .3s;
 
     &:hover {
-      background:#96FEFF;
+      background:${props => props.hover};
       transition: all .3s;
     }
   }

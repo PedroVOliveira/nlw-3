@@ -18,7 +18,7 @@ const LandingPage = () => {
           <strong>Caucaia</strong>
           <span>Ceará</span>
         </Location>
-        <AncorLink to="/map">
+        <AncorLink to="/map" size="64px" color="#ffd666" hover="#96FEFF">
           <FiArrowRight size={26} color="rgba(0,0,0,0.6)" />
         </AncorLink>
       </Wrapper>

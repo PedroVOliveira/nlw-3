@@ -1,5 +1,4 @@
 import React from 'react'
-import {Link} from 'react-router-dom';
 import {FiPlus} from 'react-icons/fi'
 import AncorLink from '../../Components/Button';
 import {PageMap, LateralContent} from './styled';
@@ -19,8 +18,7 @@ const OrphanagesMap = () => {
           <span>Ceará</span>
         </footer>
         <div></div>
-
-        <AncorLink to="/">
+        <AncorLink to="/" size="88px" color="#96FEFF" hover="#ffd666">
           <FiPlus size={32} color="#fff"/>
         </AncorLink>
       </LateralContent>
