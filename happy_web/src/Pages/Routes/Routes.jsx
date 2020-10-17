@@ -14,7 +14,6 @@ const Routes = () => {
           <Route
             path='/map'
             component={OrphanagesMap}
-
           />
       </Switch>
     </BrowserRouter>

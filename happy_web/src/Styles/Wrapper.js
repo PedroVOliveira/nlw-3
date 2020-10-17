@@ -33,5 +33,18 @@ export const  Wrapper = styled.div`
     }
   }
 
+  a {
+      position:absolute;
+      right:0;
+      bottom:0;
+      width:88px;
+      height:88px;
 
-`
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      text-decoration:none;
+      transition: all .3s;
+  }
+
+`;

@@ -1,6 +1,7 @@
 import React from 'react';
-import {FiArrowRight} from 'react-icons/fi';
 
+import {FiArrowRight} from 'react-icons/fi';
+import AncorLink from '../../Components/Button';
 import logoImg from '../../assets/img/Logo.svg';
 import {PageLanding,Location,EnterApp} from './styled';
 import {Wrapper} from '../../Styles/Wrapper';
@@ -17,9 +18,9 @@ const LandingPage = () => {
           <strong>Caucaia</strong>
           <span>Ceará</span>
         </Location>
-        <EnterApp href="#">
+        <AncorLink to="/map">
           <FiArrowRight size={26} color="rgba(0,0,0,0.6)" />
-          </EnterApp>
+        </AncorLink>
       </Wrapper>
     </PageLanding>
   )
