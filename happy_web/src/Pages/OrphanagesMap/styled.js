@@ -7,6 +7,13 @@ export const PageMap = styled.div`
 
   display:flex;
 
+  a {
+    position:absolute;
+    right:40px;
+    bottom:40px;
+
+  }
+
 `;
 
 export const LateralContent = styled.aside`
@@ -40,10 +47,4 @@ export const LateralContent = styled.aside`
     }
   }
 
-  a {
-    position:absolute;
-    right:40px;
-    bottom:40px;
-
-  }
 `;
