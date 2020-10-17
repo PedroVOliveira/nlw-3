@@ -37,8 +37,7 @@ export const  Wrapper = styled.div`
       position:absolute;
       right:0;
       bottom:0;
-      width:88px;
-      height:88px;
+
 
       display:flex;
       justify-content:center;
