@@ -39,4 +39,11 @@ export const LateralContent = styled.aside`
       font-weight:800;
     }
   }
+
+  a {
+    position:absolute;
+    right:40px;
+    bottom:40px;
+
+  }
 `;

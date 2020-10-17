@@ -18,7 +18,7 @@ const OrphanagesMap = () => {
           <span>Ceará</span>
         </footer>
         <div></div>
-        <AncorLink to="/" width={88} height={88} color="#96FEFF" hover="#ffd666">
+        <AncorLink to="/" width={64} height={64} color="#15c3d5" hover="#17d6eb">
           <FiPlus size={32} color="#fff"/>
         </AncorLink>
       </LateralContent>
