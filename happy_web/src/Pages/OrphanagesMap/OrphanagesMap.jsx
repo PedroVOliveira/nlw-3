@@ -28,7 +28,7 @@ const OrphanagesMap = () => {
           <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
 
       </Map>
-      <AncorLink to="/" width={64} height={64} color="#15c3d5" hover="#17d6eb">
+      <AncorLink to="/create-orphanages" width={64} height={64} color="#15c3d5" hover="#17d6eb">
         <FiPlus size={32} color="#fff"/>
       </AncorLink>
     </PageMap>
