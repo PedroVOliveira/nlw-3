@@ -14,6 +14,11 @@ body {
     &,input,button,textarea {
       font: 600 18px Nunito, sans-serif;
     }
+
+    #root {
+      display:flex;
+      justify-content:center;
+    }
 }
 
 `
