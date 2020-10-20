@@ -12,6 +12,7 @@ export const AncorLink = styled(Link)`
   align-items:center;
   text-decoration:none;
   transition: all .3s;
+  z-index:12200;
 
   &:hover {
     background:${props => props.hover};
