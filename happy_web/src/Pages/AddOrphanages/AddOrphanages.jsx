@@ -24,12 +24,11 @@ const AddOrphanages = () => {
         <Map
           center={[-3.7579765, -38.6067943]}
           zoom={13}
-          style={{width:'70%', height:'70%',marginTop:'40px'}}
+          style={{width:'600px', height:'400px',marginTop:'40px'}}
           >
           <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
           <h3>Clique no Mapa para adicionar a localização</h3>
         </Map>
-        <Input label="Name" />
         <Input label="Name" />
 
       </FormAdd>
